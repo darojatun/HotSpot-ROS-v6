@@ -1,0 +1,5 @@
+/ip firewall mangle
+add action=change-ttl chain=postrouting new-ttl=set:1 out-interface=HotSpot \
+    passthrough=no
+add action=change-ttl chain=output new-ttl=set:1 out-interface=HotSpot
+add action=change-ttl chain=forward new-ttl=set:1 out-interface=HotSpot
