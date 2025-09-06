@@ -2,7 +2,7 @@
 
 Selamat datang di **HotSpot-ROS-v6**!  
 Repo ini berisi **kumpulan script, halaman hotspot, dan halaman voucher** untuk Mikrotik Hotspot.  
-Kamu bisa pilih gaya halaman yang **simple** ✨ atau yang lebih modern dengan **QR Code** 📱 supaya pelanggan tinggal scan dan langsung login.
+Ini cuma tempaku menyimpan  **catatan** ✨ jangan dipakai mentah-mentah **QR Code** 📱 sesuaikan dulu.
 
 ---
 
