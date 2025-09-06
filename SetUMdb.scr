@@ -1,0 +1,7 @@
+:delay 30;
+/tool user-manager database set db-path=ROBOT/user-manager;
+:delay 30;
+/tool user-manager database rebuild;
+:delay 3;
+:put y;
+:log warning "User-Manager Database Optimized";
