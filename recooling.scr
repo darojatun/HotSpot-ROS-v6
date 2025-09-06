@@ -1,0 +1,11 @@
+:global GlobalConfig;
+:if ($GlobalConfig != true) do={ /system script run GlobalConfig;};
+:global BotID;
+:global ChatID;
+:global thisbox;
+
+/interface wireless disable 0;
+:delay 60s;
+/interface wireless enable 0;
+
+/tool fetch url="https://api.telegram.org/bot$BotID/sendMessage?chat_id=$ChatID&parse_mode=Markdown&text=*$thisbox* | %C2%BB refresh wifi bawah %C2%AB | done" keep-result=no;
