@@ -1,6 +1,6 @@
-:global BotID 8402538866:AAH3t-XmXrhpQHzFCV7SriF5A1j1BzdrWg0;
-:global ChatID -1003064889997;
-# :global ChatID -4613228748;
+:global BotID 840*********************F5A1j1BzdrWg0;
+:global ChatID -10*****9997;
+# :global ChatID -4*****48;
 :global thisbox [/system identity get name];
 
 :global GlobalConfig true;
